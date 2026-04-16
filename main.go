@@ -66,8 +66,7 @@ func main() {
 	// Der Kristall reagiert nur, wenn die Frequenz exakt 440.0 ist
 	// UND der LadungsStand kleiner als 100 ist.
 	if frequenz _____ && reaktor.LadungsStand _____ {
-		fmt.Println("[STATUS]: Frequenz harmonisiert. Initialisiere Ladevorgang...")
-
+		fmt.Println("[STATUS]: Frequenz harmonisiert. Initialisiere Ladevorgang..."
 		// AUFGABE B: Modus-Wahl für den Kristall (Switch)
 		// Nutzen Sie einen Switch für 'aktivierungsCode'.
 		// Ergänzen Sie um den zusätzlichen den Case "SHUTDOWN"

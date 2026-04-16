@@ -23,9 +23,9 @@ func main() {
 	pfeilerKern := BrueckenPfeiler{
 		Baumaterial: Baumaterial{
 			Name:      "Granit-Block",
-			Qualitaet: 85,
+			Qualitaet: 100,
 		},
-		PfeilerTyp: "Stahl",
+		PfeilerTyp: "Stein",
 		IstStabil:  true,
 	}
 
