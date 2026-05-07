@@ -48,7 +48,6 @@ func checkFlugStatus(auftrieb int, verbrauch int) (int, string) {
 		status = "Absturzgefahr"
 	}
 
-	// Return values
 	return differenz, status
 }
 
@@ -69,14 +68,14 @@ func main() {
 	fmt.Println("--- Analyse der Variable-Falken startet ---")
 
 	// 1. Aufruf der Basis-Funktion
-	speed := 45
-	winkel := 12
+	speed := 140
+	winkel := 20
 	aktuellerAuftrieb := berechneBasisAuftrieb(speed, winkel)
 	fmt.Printf("Berechneter Auftrieb: %d Einheiten\n", aktuellerAuftrieb)
 
 	// 2. Aufruf der Energie-Funktion
-	gewicht := 80
-	distanz := 20
+	gewicht := 20
+	distanz := 10
 	verbrauch := berechneEnergieVerbrauch(gewicht, distanz)
 	fmt.Printf("Voraussichtlicher Verbrauch: %d Einheiten\n", verbrauch)
 
